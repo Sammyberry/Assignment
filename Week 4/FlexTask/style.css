@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+   font-family: 'Big Shoulders Display', cursive;
+   color: hsl(0, 0%, 95%);
+   padding: 40px 20px 20px 0;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+.container{
+    font-size: 14px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    padding: 20px;
+    max-width: 600px;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    height: 70%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 30px 20px 30px 20px;
+    word-break: break-all;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    height: 70%;
+    padding: 30px 20px 30px 20px;
+    word-break: break-all;
+}
+.luxury{
+    background-color:hsl(179, 100%, 13%);
+    height: 70%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 30px 20px 30px 20px;
+    word-break: break-all;
+}
+
+
+.button-1{
+    background-color: hsl(31, 77%, 52%) ;
+    color: hsl(0, 0%, 95%);
+    border-style: solid;
+    border-color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-top: 60px;
+    cursor: pointer;
+
+}
+.button-2 {
+    background-color:hsl(184, 100%, 22%);
+    border-color:hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-top: 60px;
+    cursor: pointer;
+    
+}
+
+.button-3 {
+    background-color: hsl(179, 100%, 13%);
+    border-color:hsl(0, 0%, 95%);
+    border-style: solid;
+    color: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.here{
+    font-size: xx-large;
+}
+@media screen and (max-width:700px) {
+ .button-1, .button-2, .button-3{
+    margin-top: 10px;
+    font-size: 10px;}
+}
+
+@media screen and (min-width:701px) {
+    .button-1, .button-2, .button-3{
+    margin-top: 10px;
+    font-size: 10px;
+
+}
+}
+@media screen and (max-width:490px) {
+ .container{
+    flex-direction: column;
+    gap: 10px;
+ }
+
+    
+}
+
+@media screen and (max-width:200px) {
+    h1{
+   padding: 15px 20px 20px 0;
+}
+.sedans, .suvs, .luxury{
+    height: 90%;
+}
+}
