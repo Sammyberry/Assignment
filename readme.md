@@ -1,0 +1,1 @@
+This is all the tasks we did in week 4. It included images of flex and grid. We were asked to copy those images by using our own code and following all what what we have been taught. 
