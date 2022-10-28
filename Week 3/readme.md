@@ -1,0 +1,1 @@
+This week 3 task, we were given an assignment on how to be able to create a log in, registration and success page using just html and css. Also, we were told to build a portfolio website, checking a template on the internet, to use as an example to create ours.
